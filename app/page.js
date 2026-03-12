@@ -1,12 +1,12 @@
 import Image from "next/image";
-import Header from "./Components/navbar";
-import Head from './Components/head'
+import Navbar from "./Components/Navbar";
+import Head from "./Components/Head";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-green-400 w-screen h-screen flex items-center justify-center">
       <Head />
-      <h2 className="flex justify-center items-center bg-amber-300 text-green-300">rohit patil</h2>
+      <h4 className="text-yellow-300 text-8xl flex justify-center items-center ">rohit</h4>
     </div>
   );
 }
